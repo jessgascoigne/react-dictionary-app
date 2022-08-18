@@ -5,12 +5,12 @@ export default function Meaning(props) {
 
   return (
     <div className="Meaning">
-      <h2>{props.meaning.partOfSpeech}</h2>
+      <h3>{props.meaning.partOfSpeech}</h3>
       {props.meaning.definitions.map(function (definition, index) {
         if (index < 3) {
           return (
             <div key={index}>
-              <h3>{definition.definition}</h3>
+              <h4>{definition.definition}</h4>
               <br />
               <p>{definition.example}</p>
             </div>
