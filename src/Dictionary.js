@@ -1,11 +1,16 @@
 import React, { useState } from "react";
+import axios from "axios";
 
 export default function Dictionary() {
   const [word, setWord] = useState("");
 
+  function handleResponse(response) {
+    console.log(response.data);
+  }
   function search(event) {
     event.preventDefault();
-    alert(`Searching for ${word}`);
+    const apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en/${word}`;
+    axios.get(apiUrl).then(handleResponse);
     event.target.reset();
   }
 
