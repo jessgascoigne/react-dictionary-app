@@ -2,5 +2,9 @@
   color: #84b4cf;
   font-size: 60px;
   font-weight: 500;
+}
+
+.App h1,
+.App form {
   text-align: center;
 }
