@@ -1,5 +1,14 @@
+.App .body {
+  color: #fff;
+  background: #000;
+  border-radius: 20px;
+  display: block;
+  margin: 30px auto;
+  max-width: 75%;
+  padding: 50px;
+}
+
 .App h1 {
-  color: #84b4cf;
   font-size: 60px;
   font-weight: 500;
 }
