@@ -7,13 +7,14 @@
 }
 
 .Footer .github-repo-link {
-  color: #84b4cf;
+  color: #000;
   cursor: pointer;
+  font-weight: 300;
   text-decoration: none;
   transition: all 200ms ease-in-out;
 }
 
-.Footer.github-repo-link:hover {
-  color: #84b4cf;
-  font-weight: 300;
+.Footer .github-repo-link:hover {
+  color: #000;
+  font-weight: 500;
 }

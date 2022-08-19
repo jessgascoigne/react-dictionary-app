@@ -1,10 +1,10 @@
 .App .body {
   color: #fff;
-  background: rgba(0, 0, 0, 0.84);
+  background: rgba(0, 0, 0, 0.8);
   border: 15px solid #000;
   border-radius: 8px;
   display: block;
-  margin: 100px auto;
+  margin: 110px 250px 50px;
   max-width: 75%;
   padding: 100px;
 }
