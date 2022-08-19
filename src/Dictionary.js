@@ -35,7 +35,7 @@ export default function Dictionary(props) {
           <input
             type="search"
             placeholder="Search for a word..."
-            defaultValue={props.defaultWord}
+            defaultValue={word}
             autoFocus="on"
             onChange={handleWordSearch}
           />
