@@ -9,7 +9,7 @@ export default function App() {
     <div className="App">
       <div className="body">
         <h1>📖 Dictionary App</h1>
-        <Dictionary />
+        <Dictionary defaultWord="code" />
       </div>
       <Footer />
     </div>
