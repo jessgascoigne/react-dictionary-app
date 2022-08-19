@@ -1,0 +1,18 @@
+.Dictionary input {
+  border: 7px solid #000;
+  border-radius: 10px;
+  font-size: 17px;
+  font-weight: 200;
+  outline: none;
+  padding: 15px 25px;
+  width: 25%;
+}
+
+.Dictionary a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.Dictionary a:hover {
+  cursor: pointer;
+}

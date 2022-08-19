@@ -1,28 +1,15 @@
-.App .body {
+.App section {
   color: #fff;
-  background: #000;
-  border-radius: 20px;
+  background: rgba(0, 0, 0, 0.84);
+  border: 15px solid #000;
+  border-radius: 8px;
   display: block;
-  margin: 30px auto;
+  margin: 100px auto;
   max-width: 75%;
-  padding: 50px;
+  padding: 100px;
 }
 
 .App h1 {
-  font-size: 60px;
-  font-weight: 500;
-}
-
-.App h1,
-.App form {
-  text-align: center;
-}
-
-.App a {
-  color: #fff;
-  text-decoration: none;
-}
-
-.App a:hover {
-  cursor: pointer;
+  font-size: 25px;
+  font-weight: 300;
 }
