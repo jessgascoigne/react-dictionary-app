@@ -33,8 +33,16 @@ export default function Results(props) {
       <div className="Results">
         <h2>{props.results.word}</h2>
         <hr />
-        <div>{showPhoneticsAudio()}</div>
-        <div>{showPhoneticsText()}</div>
+        <div className="container">
+          <div className="row">
+            <div className="col-6 col-sm-2">{showPhoneticsAudio()}</div>
+            <div className="w-100"></div>
+            <div className="col-6 col-sm-2 text-center">
+              {showPhoneticsText()}
+            </div>
+          </div>
+        </div>
+        <hr />
         {props.results.meanings.map(function (meaning, index) {
           return (
             <div key={index}>

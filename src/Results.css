@@ -1,17 +1,14 @@
 .Results h2 {
   font-size: 80px;
   font-weight: 500;
-  margin: 0;
-}
-
-hr {
-  margin: 20px 0 80px 0;
+  margin: 25px 0 50px;
 }
 
 .Results button {
-  background: rgba(0, 0, 0, 0.1);
+  background: rgba(245, 74, 70, 0.55);
   border: 1px solid #fff;
-  border-radius: 50px;
+  border-radius: 25px;
+  margin: 50px 0 20px;
   display: block;
   padding: 10px 50px;
 }
@@ -26,6 +23,7 @@ hr {
 }
 
 .Results a:hover {
+  color: #fff;
   cursor: pointer;
   font-weight: 500;
 }
@@ -33,5 +31,9 @@ hr {
 .Results h5 {
   font-size: 16px;
   font-weight: 300;
-  margin-left: 40px;
+  margin-bottom: 50px;
+}
+
+.Results hr {
+  opacity: 0.5;
 }
