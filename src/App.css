@@ -1,15 +1,9 @@
 .App .body {
   color: #fff;
-  background: rgba(0, 0, 0, 0.8);
-  border: 15px solid #000;
+  background: rgba(245, 74, 70, 0.725);
+  border: 15px solid #f54a46;
   border-radius: 8px;
   display: block;
-  margin: 110px 250px 50px;
-  max-width: 75%;
+  margin: 110px 10px 50px;
   padding: 100px;
-}
-
-.App h1 {
-  font-size: 25px;
-  font-weight: 300;
 }

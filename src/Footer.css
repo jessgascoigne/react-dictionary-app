@@ -7,7 +7,7 @@
 }
 
 .Footer .github-repo-link {
-  color: #000;
+  color: #f54a46;
   cursor: pointer;
   font-weight: 300;
   text-decoration: none;
@@ -15,6 +15,6 @@
 }
 
 .Footer .github-repo-link:hover {
-  color: #000;
+  color: #f54a46;
   font-weight: 500;
 }
