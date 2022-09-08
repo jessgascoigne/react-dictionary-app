@@ -44,21 +44,27 @@ export default function Dictionary(props) {
   if (loaded) {
     return (
       <div className="Dictionary">
-        <div className="row search">
-          <div className="col-6">
-            <h1>What word do you want to look up?</h1>
-            <form onSubmit={handleSubmit}>
-              <input
-                type="search"
-                defaultValue={word}
-                autoFocus="on"
-                onChange={handleWordSearch}
-              />
-            </form>
-          </div>
+        <div className="container">
+          <div className="row search">
+            <div className="col-lg-6">
+              <h1>What word do you want to look up?</h1>
+              <form onSubmit={handleSubmit}>
+                <input
+                  type="search"
+                  defaultValue={word}
+                  autoFocus="on"
+                  onChange={handleWordSearch}
+                />
+              </form>
+            </div>
 
-          <div className="col-6">
-            <img src={Book} alt="girl reading" className="float-end" />
+            <div className="col-lg-6">
+              <img
+                src={Book}
+                alt="girl reading"
+                className="girl-reading img-fluid"
+              />
+            </div>
           </div>
         </div>
         <Results results={results} />

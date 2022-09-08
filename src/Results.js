@@ -37,9 +37,7 @@ export default function Results(props) {
           <div className="row">
             <div className="col-6 col-sm-2">{showPhoneticsAudio()}</div>
             <div className="w-100"></div>
-            <div className="col-6 col-sm-2 text-center">
-              {showPhoneticsText()}
-            </div>
+            <div className="col-6 col-sm-2">{showPhoneticsText()}</div>
           </div>
         </div>
         <hr />

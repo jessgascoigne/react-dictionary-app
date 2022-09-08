@@ -16,9 +16,56 @@
   line-height: 1.5;
   outline: none;
   padding: 15px 25px;
-  width: 438px;
+  width: 400px;
 }
 
-.Dictionary img {
+.Dictionary .girl-reading {
+  display: block;
+  float: right;
   max-height: 300px;
+}
+
+@media (max-width: 992px) {
+  .Dictionary h1 {
+    font-size: 20px;
+  }
+
+  .Dictionary input {
+    border: 4px solid #f54a46;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: 200;
+    line-height: 1.5;
+    outline: none;
+    padding: 8px;
+    max-width: 100%;
+  }
+
+  .Dictionary .girl-reading {
+    display: block;
+    float: left;
+    margin-top: 40px;
+  }
+}
+
+@media (max-width: 576px) {
+  .Dictionary h1 {
+    font-size: 13px;
+  }
+
+  .Dictionary .girl-reading {
+    justify-content: space-around;
+    max-width: 75%;
+  }
+
+  .Dictionary input {
+    border: 4px solid #f54a46;
+    border-radius: 8px;
+    font-size: 13px;
+    font-weight: 200;
+    line-height: 1;
+    outline: none;
+    padding: 8px;
+    max-width: 100%;
+  }
 }
