@@ -25,7 +25,7 @@
   max-height: 300px;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 1200px) {
   .Dictionary h1 {
     font-size: 20px;
   }
